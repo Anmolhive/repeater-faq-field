@@ -14,7 +14,7 @@ Wordpress plugin to add faqs metabox in blog and return faqs with faqs schema
     <h5>Best practice</h5>
     <p style="text-align:left">
         if(function_exists('rf_faqs')){ <br>
-        &nbsp;&nbsp;$faqa = rf_faqs($post->ID); <br>
+        &nbsp;&nbsp;$faqs = rf_faqs($post->ID); <br>
         &nbsp;&nbsp;foreach($faqs as $faq){ <br>
         &nbsp;&nbsp;&nbsp;&nbsp;echo $faq['question']; <br>
         &nbsp;&nbsp;&nbsp;&nbsp;echo $faq['answer']; <br>
