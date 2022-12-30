@@ -1,7 +1,7 @@
 # Repeater FAQ field
 Wordpress plugin to add faqs metabox in blog and return faqs with faqs schema
 
-###To use Repeater FAQ field to your theme:
+### To use Repeater FAQ field to your theme:
 
 ## rf_faqs( int $post_id);
 
@@ -9,6 +9,9 @@ Description
 Returns faqs of the post as array of arrays
 
 Returns
+<ol>
+  <li>testing</li> 
+</ol>
 Array([0] => Array(["question"] => question ["answer"] => answer)
 If no value entered return empty string
 If plugin is deactive from repeater faq admin it returns bool(False)
